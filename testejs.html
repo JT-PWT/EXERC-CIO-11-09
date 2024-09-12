@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        <title>Teste Javascript</title>
+        <link rel="stylesheet" type="text/CSS" href="style.css" media="screen"/>
+    </head>
+    <body>
+        <center><p>
+        <h2>JavaScript switch</h2>
+        </p>
+        <p id="demo"></p>
+        </center>
+    <script>
+        let dia;
+            switch (new Date().getDay()) {
+
+                case 0:
+                dia = "Domingo";
+                break;
+
+                case 1:
+                dia = "Segunda";
+                break;
+
+                case 2:
+                dia = "Terça";
+                break;
+
+                case 3:
+                dia = "Quarta";
+                break;
+
+                case 4:
+                dia = "Quinta";
+                break;
+
+                case 5:
+                dia = "Sexta";
+                break;
+
+                case 6:
+                dia = "Sábado";
+
+        }
+        document.getElementById("demo").innerHTML = "Hoje é " + dia + " !!!";
+
+
+    </script>
+
+    <br>
+    <center>
+
+    <img src="./assets/motor.jpg" widht="400" height="200"> 
+    
+    <br>
+    <br>
+    <img src="./assets/quarta.jpg" widht="400" height="200"> 
+    </center>
+    <br>
+    <br>
+    <br>
+    <p class="Título">HOJE É QUASE QUINTA-FEIRA!!!</p>
+    </body>
+</html>
